@@ -80,4 +80,4 @@ Found 1 match(es):
 
 ## 🧑‍💻 License
 
-This project is licensed under the [MIT License](https://opensource.org/licenses/MIT) — free for personal and commercial use.
+This project is licensed under the [MIT License](./LICENSE) — free for personal and commercial use.

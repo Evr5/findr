@@ -1,4 +1,4 @@
-name: C++ Royal Blocks Build (with Make + Cache)
+name: C++ findr Build (with Make + Cache)
 
 on:
   push:

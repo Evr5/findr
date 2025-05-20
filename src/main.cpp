@@ -32,7 +32,7 @@ int main(const int argc, const char* argv[]) {
 
     std::string nameTofind = joinArgs(argc, argv, 1);
     std::string nameToFindLower = toLowerCopy(nameTofind);
-    std::cout << "Searching for : " << nameTofind << "\n" << std::endl;
+    std::cout << "Searching for: " << nameTofind << "\n" << std::endl;
 
     std::vector<std::string> result;
     fs::path current_path = fs::current_path();
@@ -50,7 +50,7 @@ int main(const int argc, const char* argv[]) {
         return 0;
     }
 
-    std::cout << "Found " << result.size() << " entries :" << std::endl;
+    std::cout << "Found " << result.size() << " match(es):\n" << std::endl;
     for (const std::string &entry : result) {
         std::cout << entry << std::endl;
     }

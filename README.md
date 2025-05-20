@@ -24,13 +24,12 @@
 ### Build (Release)
 
 ```bash
-git clone https://github.com/yourname/findr.git
+git clone https://github.com/Evr5/findr
 cd findr
-cmake -DCMAKE_BUILD_TYPE=Release -B build
-cmake --build build
+make
 ```
 
-The binary will be available at `build/findr`.
+The binary will be available at the root of the project directory.
 
 ---
 
@@ -70,23 +69,15 @@ Found 1 match(es):
 
 ```sh
 .
-├── CMakeLists.txt
 ├── src/
 │   └── main.cpp
+├── CMakeLists.txt
+├── Makefile
 └── README.md
 ```
 
 ---
 
-## 🛠 Future Improvements
-
-- Option for case-sensitive search
-- Regex support
-- Output formatting (JSON, plain, etc.)
-- File content search (like `grep`)
-
----
-
 ## 🧑‍💻 License
 
-MIT License — free for personal and commercial use.
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT) — free for personal and commercial use.
